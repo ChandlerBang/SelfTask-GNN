@@ -1,0 +1,14 @@
+networkx==2.3
+numpy==1.17.4
+pandas==1.0.3
+torch==1.2.0
+scipy==1.4.1
+scikit_learn_extra==0.1.0b2
+numba==0.47.0
+matplotlib==3.1.1
+metis==0.2a4
+tqdm==4.42.0
+ipdb==0.13.2
+ica==0.5
+scikit_learn==0.23.1
+tensorboardX==2.0

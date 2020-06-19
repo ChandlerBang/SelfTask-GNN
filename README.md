@@ -4,7 +4,7 @@ A PyTorch implementation of "Self-supervised Learning on Graphs: Deep Insights a
 In this paper, we first deepen our understandings on when, why, and which strategies of SSL work with GNNs by empirically studying numerous basic SSL pretext tasks on graphs. Inspired by deep insights from the empirical studies, we propose a new direction *SelfTask* to build advanced pretext tasks that are able to achieve state-of-the-art performance on various real-world datasets.
 
 ## Requirements
-See that in https://github.com/ChandlerBang/SelfTask/blob/master/requirements.txt
+See that in https://github.com/ChandlerBang/SelfTask-GNN/blob/master/requirements.txt
 
 ## Run our code
 Clone the repository

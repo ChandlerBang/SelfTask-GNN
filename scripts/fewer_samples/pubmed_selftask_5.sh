@@ -1,12 +1,10 @@
 #!/bin/bash
 
-# By setting --param_searching to 0, we can use the best \lambda for
-# different SSL basic tasks. See details in src/configs.py
-
 python ./src/train_ssl.py \
+    --debug \
     --datapath data// \
     --seed 10 \
-    --dataset cora \
+    --dataset pubmed \
     --type mutigcn \
     --nhiddenlayer 1 \
     --nbaseblocklayer 0 \
@@ -18,9 +16,11 @@ python ./src/train_ssl.py \
     --sampling_percent 1 \
     --dropout 0.5 \
     --normalization AugNormAdj --task_type semi \
-    --ssl AttributeMask \
-    --lambda_ 10 \
-    --train_size 0 \
-    --param_searching 1 \
+    --ssl LPContextLabel \
+    --lambda_ 1 \
+    --train_size 5 \
+    --param_searching 0 \
+    --alpha 1
      \
+
 

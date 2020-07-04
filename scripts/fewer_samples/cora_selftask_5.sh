@@ -16,11 +16,11 @@ python ./src/train_ssl.py \
     --sampling_percent 1 \
     --dropout 0.5 \
     --normalization AugNormAdj --task_type semi \
-    --ssl ICAContextLabel \
+    --ssl LPContextLabel \
     --lambda_ 5 \
-    --train_size 10 \
+    --train_size 5 \
     --param_searching 0 \
-    --alpha 2
+    --alpha 1.2
      \
 
 

@@ -14,10 +14,10 @@ cd SelfTask-GNN
 pip install -r requirements.txt
 ```
 
-To reproduce the performance reported in the paper, you can run the bash files in folder `scripts`
+To reproduce the performance reported in the paper, you can run the bash files in folder `scripts`. 
 ```
-sh scripts/selftask/cora_ContextLabel_ICA.sh
-sh scripts/selftask/cora_ContextLabel_LP.sh
+sh scripts/selftask/cora_CorrectedLabel.sh
+sh scripts/selftask/cora_CorrectedLabel_LP.sh
 ```
 
 

@@ -9,6 +9,5 @@ matplotlib==3.1.1
 metis==0.2a4
 tqdm==4.42.0
 ipdb==0.13.2
-ica==0.5
 scikit_learn==0.23.1
 tensorboardX==2.0

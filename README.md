@@ -13,6 +13,13 @@ git clone https://github.com/ChandlerBang/SelfTask-GNN.git
 cd SelfTask-GNN
 pip install -r requirements.txt
 ```
+You need to further install `ica` package
+```
+pip uninstall ica # in case you have installed it before
+git clone https://github.com/ChandlerBang/ica.git 
+cd ica
+python setup.py install
+```
 
 To reproduce the performance reported in the paper, you can run the bash files in folder `scripts`. 
 ```

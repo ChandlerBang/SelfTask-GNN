@@ -2,7 +2,7 @@ networkx==2.3
 numpy==1.17.4
 pandas==1.0.3
 torch==1.2.0
-scipy==1.4.1
+scipy==1.10.0
 scikit_learn_extra==0.1.0b2
 numba==0.47.0
 matplotlib==3.1.1
